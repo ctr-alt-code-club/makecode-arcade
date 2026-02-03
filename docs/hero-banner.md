@@ -5,6 +5,17 @@ Here are some cool activities to get you started!
 ## Intro Content
 
 ### ~ codecard
+
+### ~
+
+<!-- CC_TODO - Uncomment and add above the ### ~
+* name: Start Coding
+* buttonLabel: Start Coding
+* description: New? Start here!
+* imageUrl: https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png
+* url: [/tutorials/intro](https://ctrl-alt-code.uk)
+* cardType: link
+---
 * name: Start Coding
 * buttonLabel: Start Coding
 * description: New? Start here!
@@ -31,9 +42,5 @@ Here are some cool activities to get you started!
 * description: Educator Resources
 * imageUrl: /static/educator/edu.jpg
 * url: /educators
-* cardType: link
+* cardType: link -->
 
-
-
-
-### ~

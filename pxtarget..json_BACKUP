@@ -2,9 +2,9 @@
     "id": "arcade",
     "name": "arcade",
     "nickname": "arcade",
-    "thumbnailName": "CtrlAltCode Arcade",
-    "title": "CtrlAltCode Arcade",
-    "description": "Experiment, create and develop to boost your programming skills!",
+    "thumbnailName": "MakeCode Arcade",
+    "title": "Microsoft MakeCode Arcade",
+    "description": "Develop your programming skills by quickly creating and modding retro arcade games with Blocks and JavaScript in the MakeCode editor",
     "corepkg": "device",
     "cloud": {
         "workspace": false,
@@ -496,16 +496,16 @@
         "keymap": true
     },
     "appTheme": {
-        "logoUrl": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
+        "logoUrl": "https://makecode.com/org",
         "logo": "/static/logo.svg",
         "docsLogo": "/static/logo.svg",
         "cardLogo": "/static/logo.png",
         "appLogo": "/static/icons/favicon.ico",
         "portraitLogo": "/static/logo.svg",
         "footerLogo": "/static/logo.svg",
-        "organization": "CtrlAltCode MakeCode",
-        "organizationText": "CtrlAltCode Arcade",
-        "organizationShortText": "CtrlAltCode",
+        "organization": "Microsoft MakeCode",
+        "organizationText": "MakeCode Arcade",
+        "organizationShortText": "MakeCode",
         "organizationUrl": "https://ctrl-alt-code.uk",
         "organizationLogo": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
         "organizationWideLogo": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
@@ -701,5 +701,53 @@
     "uploadDocs": true,
     "noSimShims": true,
     "defaultBadges": [
+        {
+            "id": "skillmap-completion-save the forest",
+            "type": "skillmap-completion",
+            "image": "/static/badges/badge-forest.png",
+            "lockedImage": "/static/badges/badge-forest-locked.png",
+            "sourceURL": "https://www.makecode.com/api/md/arcade/skillmap/forest",
+            "title": "Save the Forest"
+        },
+        {
+            "id": "skillmap-completion-zookeeper",
+            "type": "skillmap-completion",
+            "image": "/static/badges/badge-zoo.png",
+            "lockedImage": "/static/badges/badge-zoo-locked.png",
+            "sourceURL": "https://www.makecode.com/api/md/arcade/skillmap/zoo",
+            "title": "Zookeeper"
+        },
+        {
+            "id": "skillmap-completion-rockstar",
+            "image": "/static/badges/badge-rockstar.png",
+            "lockedImage": "/static/badges/badge-rockstar-locked.png",
+            "sourceURL": "https://www.makecode.com/api/md/arcade/skillmap/rockstar",
+            "type": "skillmap-completion",
+            "title": "80's Rockstar"
+        },
+        {
+            "id": "skillmap-completion-build a platformer game!",
+            "image": "/static/badges/badge-jungle.png",
+            "lockedImage": "/static/badges/badge-jungle-locked.png",
+            "sourceURL": "https://www.makecode.com/api/md/arcade/skillmap/jungle",
+            "type": "skillmap-completion",
+            "title": "Jungle Jump"
+        },
+        {
+            "id": "skillmap-completion-space",
+            "image": "/static/badges/badge-space.png",
+            "lockedImage": "/static/badges/badge-space-locked.png",
+            "sourceURL": "https://www.makecode.com/api/md/arcade/skillmap/space",
+            "type": "skillmap-completion",
+            "title": "Space Explorer"
+        },
+        {
+            "id": "skillmap-completion-shark",
+            "image": "/static/badges/badge-shark.png",
+            "lockedImage": "/static/badges/badge-shark-locked.png",
+            "sourceURL": "https://www.makecode.com/api/md/arcade/skillmap/shark",
+            "type": "skillmap-completion",
+            "title": "Shark Splash"
+        }
     ]
 }
