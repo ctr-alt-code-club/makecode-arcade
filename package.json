@@ -37,9 +37,11 @@
     "optionalDependencies": {
         "pxt-arcade-sim": "microsoft/pxt-arcade-sim.git#v0.12.3"
     },
-    "scripts": {
-        "serve": "node node_modules/pxt-core/built/pxt.js serve",
-        "copy-sim": "node ./scripts/copyArcadeSim.js",
-        "compile-aw": "gh aw compile --strict"
-    }
+  "scripts": {
+    "serve": "node node_modules/pxt-core/built/pxt.js serve",
+    "build": "node node_modules/pxt-core/built/pxt.js build",
+    "copy-sim": "node ./scripts/copyArcadeSim.js",
+    "staticpkg": "node node_modules/pxt-core/built/pxt.js staticpkg",
+    "compile-aw": "gh aw compile --strict"
+  }
 }

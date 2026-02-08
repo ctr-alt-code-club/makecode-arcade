@@ -21,7 +21,6 @@
     "bundleddirs": [
         "libs/animation",
         "libs/accelerometer",
-        "libs/azureiot",
         "libs/base",
         "libs/buttons",
         "libs/color",
