@@ -18,6 +18,9 @@
         "cloudProviders": {
         }
     },
+    "cdnUrl": "/",
+    "blobCdnUrl": "/blb/",
+    "targetCdnUrl": "/",
     "bundleddirs": [
         "libs/animation",
         "libs/accelerometer",
@@ -495,6 +498,10 @@
         "keymap": true
     },
     "appTheme": {
+        "cdnCDN": "/",
+        "blobCDN": "/blb/",
+        "commitCDN": "/",
+        "targetCDN": "/",
         "logoUrl": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
         "logo": "/static/logo.svg",
         "docsLogo": "/static/logo.svg",
@@ -508,8 +515,8 @@
         "organizationUrl": "https://ctrl-alt-code.uk",
         "organizationLogo": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
         "organizationWideLogo": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
-        "homeUrl": "https://ctrl-alt-code.uk",
-        "embedUrl": "https://ctrl-alt-code.uk",
+        "homeUrl": "https://arcade.ctrl-alt-code.uk",
+        "embedUrl": "https://arcade.ctrl-alt-code.uk",
         "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
         "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
         "githubUrl": "https://github.com/microsoft/pxt-arcade",

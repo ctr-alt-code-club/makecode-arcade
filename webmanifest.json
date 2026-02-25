@@ -1,5 +1,13 @@
 {
-    "name": "arcade.makecode.com",
+    "name": "CtrlAltCode Arcade",
+    "short_name": "Arcade",
+    "description": "Experiment, create and develop to boost your programming skills!",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "orientation": "any",
+    "scope": "/",
     "icons": [
         {
             "src": "/static/icons/logo-192x192.png",
@@ -28,6 +36,5 @@
             "purpose": "maskable"
         }
     ],
-    "theme_color": "#ffffff",
     "related_applications": []
 }
