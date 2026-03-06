@@ -11,6 +11,8 @@ WORKDIR /app
 COPY makecode-core /app/makecode-core
 WORKDIR /app/makecode-core
 
+ENV PXT_FORCE_LOCAL=1
+
 # Install dependencies and build
 RUN npm install
 RUN npm run build

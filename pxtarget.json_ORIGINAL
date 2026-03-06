@@ -16,6 +16,37 @@
         "githubPackages": true,
         "showBadges": true,
         "cloudProviders": {
+            "github": {
+                "id": "github",
+                "name": "GitHub",
+                "icon": "/static/providers/github-mark.png",
+                "identity": false,
+                "order": 4
+            },
+            "microsoft": {
+                "id": "microsoft",
+                "name": "Microsoft",
+                "icon": "/static/providers/microsoft-logo.svg",
+                "identity": true,
+                "redirect": true,
+                "order": 1
+            },
+            "google": {
+                "id": "google",
+                "name": "Google",
+                "icon": "/static/providers/google-logo.svg",
+                "identity": true,
+                "redirect": true,
+                "order": 2
+            },
+            "clever": {
+                "id": "clever",
+                "name": "Clever",
+                "icon": "/static/providers/clever-logo.png",
+                "identity": true,
+                "redirect": true,
+                "order": 3
+            }
         }
     },
     "bundleddirs": [
@@ -362,8 +393,8 @@
                 "buildEngine": "codal",
                 "codalTarget": {
                     "name": "codal-microbit-v2",
-                    "url": "https://github.com/lancaster-university/codal-microbit-v2",
-                    "branch": "v0.3.0",
+                    "url": "https://github.com/thomasjball/codal-microbit-v2",
+                    "branch": "13a0d323b3a9c18a59e3120535d78654b6c8a566",
                     "type": "git"
                 },
                 "codalBinary": "MICROBIT",
@@ -371,10 +402,7 @@
                 "gittag": "v0.2.13",
                 "serviceId": "mbcodal2",
                 "dockerImage": "pext/yotta:latest",
-                "yottaConfigCompatibility": true,
-                "yottaConfig": {
-                    "DEVICE_BLE": 0
-                }
+                "yottaConfigCompatibility": true
             }
         },
         "rp2040": {
@@ -506,11 +534,11 @@
         "organization": "Microsoft MakeCode",
         "organizationText": "MakeCode Arcade",
         "organizationShortText": "MakeCode",
-        "organizationUrl": "https://ctrl-alt-code.uk",
-        "organizationLogo": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
-        "organizationWideLogo": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
-        "homeUrl": "https://ctrl-alt-code.uk",
-        "embedUrl": "https://ctrl-alt-code.uk",
+        "organizationUrl": "https://makecode.com/org",
+        "organizationLogo": "/static/Micorsoft_logo_rgb_W-white_D-square.png",
+        "organizationWideLogo": "/static/Micorsoft_logo_rgb_W-white_D.png",
+        "homeUrl": "https://arcade.makecode.com/",
+        "embedUrl": "https://arcade.makecode.com/",
         "privacyUrl": "https://go.microsoft.com/fwlink/?LinkId=521839",
         "termsOfUseUrl": "https://go.microsoft.com/fwlink/?LinkID=206977",
         "githubUrl": "https://github.com/microsoft/pxt-arcade",
@@ -560,15 +588,19 @@
         "hasAudio": true,
         "allowPackageExtensions": true,
         "homeScreenHero": {
-            "imageUrl": "https://ctrl-alt-code.uk/wp-content/uploads/2025/07/logo.png",
+            "imageUrl": "/static/hero-gallery/skillmap.png",
             "name": "Start Coding",
-            "url": "https://ctrl-alt-code.uk",
+            "url": "/tutorials/intro",
             "buttonLabel": "Start Coding",
-            "description": "Start Coding with Ctrl Alt Code!",
-            "cardType": "link"
+            "description": "New? Start here!",
+            "cardType": "tutorial"
         },
         "homeScreenHeroGallery": "/hero-banner",
         "socialOptions": {
+            "orgTwitterHandle": "MSMakeCode",
+            "hashtags": "MakeCode",
+            "discourse": "https://forum.makecode.com/",
+            "discourseCategory": "Arcade"
         },
         "blocklyOptions": {
             "grid": {
@@ -604,6 +636,7 @@
         "scriptManager": true,
         "saveInMenu": false,
         "debugger": true,
+        "showProjectSettings": true,
         "importExtensionFiles": true,
         "enabledFeatures": {
             "blocksErrorList": {},
