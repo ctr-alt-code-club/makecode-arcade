@@ -4,14 +4,14 @@
     "weight": 20,
     "overrideFiles": [],
     "colors": {
-        "pxt-header-background": "#F76820",
-        "pxt-header-foreground": "#FFFFFF",
+        "pxt-header-background": "#ec940c",
+        "pxt-header-foreground": "#7e0950",
         "pxt-header-background-hover": "#ab3d06",
-        "pxt-header-foreground-hover": "#FFFFFF",
+        "pxt-header-foreground-hover": "#7e0950",
         "pxt-header-stencil": "#dc4f08",
 
-        "pxt-primary-background": "#F76820",
-        "pxt-primary-foreground": "#FFFFFF",
+        "pxt-primary-background": "#ec940c",
+        "pxt-primary-foreground": "#7e0950",
         "pxt-primary-background-hover": "#dc4f08",
         "pxt-primary-foreground-hover": "#FFFFFF",
         "pxt-primary-accent": "#C5561F",
@@ -23,7 +23,7 @@
         "pxt-secondary-accent": "#015964",
 
         "pxt-tertiary-background": "#028B9B",
-        "pxt-tertiary-foreground": "#FFFFFF",
+        "pxt-tertiary-foreground": "#7e0950",
         "pxt-tertiary-background-hover": "#015e69",
         "pxt-tertiary-foreground-hover": "#FFFFFF",
         "pxt-tertiary-accent": "#013136",
